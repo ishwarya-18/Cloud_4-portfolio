@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ISHWARYA | Portfolio</title>
-  <link rel="stylesheet" href="/style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishwarya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- ===== NAVBAR ===== -->
   <header>
-    <nav>
-      <div class="logo">ISHWARYA</div>
+    <nav class="navbar">
+      <div class="logo">Ishwarya<span>.</span></div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -19,49 +21,96 @@
     </nav>
   </header>
 
+  <!-- ===== HERO SECTION ===== -->
   <section class="hero">
-    <h1>Hello, I'm ISHWARYA</h1>
-    <p>Web Developer & UI/UX Designer</p>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Ishwarya Rajendran</span></h1>
+        <h3>Web Developer | UI/UX Designer</h3>
+        <p>
+          I’m a passionate developer who loves turning creative ideas into
+          functional, elegant websites. My goal is to build user-friendly,
+          visually appealing, and accessible applications that deliver
+          seamless digital experiences.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="resume.pdf" class="btn secondary" target="_blank">Download Resume</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/ishwarya-01i08s05h" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:ishwaryarajendran77@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="image.png" alt="Ishwarya Photo" />
+      </div>
+    </div>
   </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I love building modern, responsive web applications with clean design. I'm skilled in full-stack development and passionate about user experience.</p>
-  </section>
+  <!-- ===== ABOUT ===== -->
+<section id="about" class="section about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I’m <strong>Ishwarya Rajendran</strong>, a Computer Science student passionate about front-end and back-end web development. 
+        I focus on creating balanced, responsive layouts and seamless user experiences.
+      </p>
+      <p>
+        I enjoy turning creative ideas into real-world projects using modern technologies like React, Node.js, and Figma. 
+        When I’m not coding, I explore UI/UX trends and collaborate on tech solutions that make life easier.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skill-list">
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Node.js, PostgreSQL</li>
-      <li>Figma, Adobe XD</li>
-    </ul>
-  </section>
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">React</div>
+    <div class="skill-card">Node.js</div>
+    <div class="skill-card">PostgreSQL</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Figma</div>
+  </div>
+</section>
 
-  <section id="projects">
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
     <h2>Projects</h2>
-    <div class="project">
-      <h3>To-Do List App</h3>
-      <p>Task manager with login, dark mode, and responsive UI.</p>
-    </div>
-    <div class="project">
-      <h3>ElevateEd</h3>
-      <p>Full-stack e-learning platform with modules, certificates, and weekly challenges.</p>
-    </div>
-    <div class="project">
-      <h3>Hall Booking System</h3>
-      <p>React + Node.js system to reserve and manage halls.</p>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>To-Do List App</h3>
+        <p>Task manager with login, dark mode, and responsive UI.</p>
+      </div>
+      <div class="project-card">
+        <h3>ElevateEd</h3>
+        <p>Full-stack e-learning platform with certificates and progress tracking.</p>
+      </div>
+      <div class="project-card">
+        <h3>Hall Booking System</h3>
+        <p>React + Node.js app for efficient hall reservations and management.</p>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
     <h2>Contact</h2>
-    <p>Email: ishwaryarajendran77@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/ishwarya-01i08s05h</p>
+    <p>Interested in collaborating or hiring me? Let’s connect!</p>
+    <p><strong>Email:</strong> <a href="mailto:ishwaryarajendran77@gmail.com">ishwaryarajendran77@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ishwarya-01i08s05h" target="_blank">linkedin.com/in/ishwarya-01i08s05h</a></p>
   </section>
 
+  <!-- ===== FOOTER ===== -->
   <footer>
-    <p>© 2025 Aishwarya. All rights reserved.</p>
+    <p>© 2025 Ishwarya</p>
   </footer>
 </body>
 </html>
